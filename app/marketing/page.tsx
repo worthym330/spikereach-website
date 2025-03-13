@@ -80,9 +80,9 @@ export default function MarketingPage() {
                 Improve your website's visibility in search engine results to drive organic traffic and reach potential
                 customers actively searching for your products or services.
               </p>
-              <Link href="/marketing/seo" className="text-amber-600 dark:text-amber-400 font-medium hover:underline">
+              {/* <Link href="/marketing/seo" className="gradient-text hover:underline">
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
 
             <div className="bg-card p-8 rounded-lg shadow-md card-hover">
@@ -107,12 +107,12 @@ export default function MarketingPage() {
                 Create valuable, relevant content that attracts and engages your target audience, establishing your
                 brand as an authority in your industry.
               </p>
-              <Link
+              {/* <Link
                 href="/marketing/content"
-                className="text-amber-600 dark:text-amber-400 font-medium hover:underline"
+                className="gradient-text hover:underline"
               >
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
 
             <div className="bg-card p-8 rounded-lg shadow-md card-hover">
@@ -132,19 +132,19 @@ export default function MarketingPage() {
                 Build and engage your community on social media platforms with strategic content, campaigns, and paid
                 advertising to increase brand awareness and drive conversions.
               </p>
-              <Link
+              {/* <Link
                 href="/marketing/social-media"
-                className="text-amber-600 dark:text-amber-400 font-medium hover:underline"
+                className="gradient-text hover:underline"
               >
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
       </section>
 
       {/* Premium Services Section */}
-      <section className="section-padding bg-gradient-to-r from-amber-500 to-amber-700 text-white dark:from-amber-700 dark:to-amber-900">
+      <section className="section-padding bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="mb-4">Premium Marketing Services</h2>
@@ -210,12 +210,12 @@ export default function MarketingPage() {
                   <span>Brand Guidelines & Assets</span>
                 </li>
               </ul>
-              <Link
+              {/* <Link
                 href="/marketing/brand-development"
-                className="inline-block px-6 py-3 bg-white text-amber-600 rounded-md font-medium transition-all hover:bg-amber-50"
+                className="inline-block px-6 py-3 button-gradient rounded-md font-medium transition-all"
               >
                 Learn More
-              </Link>
+              </Link> */}
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
@@ -274,19 +274,19 @@ export default function MarketingPage() {
                   <span>Performance Measurement Framework</span>
                 </li>
               </ul>
-              <Link
+              {/* <Link
                 href="/marketing/strategy"
-                className="inline-block px-6 py-3 bg-white text-amber-600 rounded-md font-medium transition-all hover:bg-amber-50"
+                className="inline-block px-6 py-3 button-gradient rounded-md font-medium transition-all"
               >
                 Learn More
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
       </section>
 
       {/* Results Section */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-secondary">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="mb-4">Results That Speak for Themselves</h2>

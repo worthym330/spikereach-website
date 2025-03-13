@@ -79,9 +79,9 @@ export default function DevOpsPage() {
                 Develop a comprehensive cloud strategy aligned with your business goals. We help you choose the right
                 cloud platforms and services to optimize performance and costs.
               </p>
-              <Link href="/devops/cloud-strategy" className="text-primary font-medium hover:underline">
+              {/* <Link href="/devops/cloud-strategy" className="gradient-text font-medium hover:underline">
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
 
             <div className="bg-card p-8 rounded-lg shadow-md card-hover">
@@ -106,9 +106,9 @@ export default function DevOpsPage() {
                 Automate your infrastructure deployment and management with Infrastructure as Code (IaC). Reduce manual
                 errors and increase deployment speed and reliability.
               </p>
-              <Link href="/devops/infrastructure-automation" className="text-primary font-medium hover:underline">
+              {/* <Link href="/devops/infrastructure-automation" className="gradient-text font-medium hover:underline">
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
 
             <div className="bg-card p-8 rounded-lg shadow-md card-hover">
@@ -133,9 +133,9 @@ export default function DevOpsPage() {
                 Set up robust Continuous Integration and Continuous Deployment pipelines. Automate testing and
                 deployment to deliver high-quality software faster.
               </p>
-              <Link href="/devops/cicd-implementation" className="text-primary font-medium hover:underline">
+              {/* <Link href="/devops/cicd-implementation" className="gradient-text font-medium hover:underline">
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

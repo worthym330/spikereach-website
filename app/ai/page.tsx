@@ -1,13 +1,13 @@
-import Image from "next/image"
-import Link from "next/link"
-import PageHeader from "@/components/PageHeader"
-import CtaSection from "@/components/home/CtaSection"
+import Image from "next/image";
+import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
+import CtaSection from "@/components/home/CtaSection";
 
 export const metadata = {
   title: "AI Solutions | SpikeReach",
   description:
     "Cutting-edge AI solutions to transform your business. Machine learning, natural language processing, computer vision, and more.",
-}
+};
 
 export default function AIPage() {
   return (
@@ -24,15 +24,19 @@ export default function AIPage() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <h2 className="mb-6">
-                Harness the Power of <span className="gradient-text">Artificial Intelligence</span>
+                Harness the Power of{" "}
+                <span className="gradient-text">Artificial Intelligence</span>
               </h2>
               <p className="text-lg mb-6">
-                Our AI solutions help businesses leverage the latest advancements in artificial intelligence to automate
-                processes, gain valuable insights, and create innovative products and services.
+                Our AI solutions help businesses leverage the latest
+                advancements in artificial intelligence to automate processes,
+                gain valuable insights, and create innovative products and
+                services.
               </p>
               <p className="text-lg mb-8">
-                We combine deep technical expertise with a thorough understanding of business challenges to deliver AI
-                solutions that drive real-world results.
+                We combine deep technical expertise with a thorough
+                understanding of business challenges to deliver AI solutions
+                that drive real-world results.
               </p>
             </div>
             <div className="md:w-1/2">
@@ -53,7 +57,9 @@ export default function AIPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="mb-4">Our AI Services</h2>
-            <p className="text-lg max-w-3xl mx-auto">Comprehensive AI solutions tailored to your business needs</p>
+            <p className="text-lg max-w-3xl mx-auto">
+              Comprehensive AI solutions tailored to your business needs
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -76,15 +82,16 @@ export default function AIPage() {
               </div>
               <h3 className="text-xl font-bold mb-4">Machine Learning</h3>
               <p className="mb-6 text-muted-foreground">
-                Develop custom machine learning models to analyze data, identify patterns, and make predictions that
-                drive business decisions and automation.
+                Develop custom machine learning models to analyze data, identify
+                patterns, and make predictions that drive business decisions and
+                automation.
               </p>
-              <Link
+              {/* <Link
                 href="/ai/machine-learning"
-                className="text-purple-600 dark:text-purple-400 font-medium hover:underline"
+                className="gradient-text dark:text-purple-400 font-medium hover:underline flex justify-end"
               >
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
 
             <div className="bg-card p-8 rounded-lg shadow-md card-hover">
@@ -104,14 +111,20 @@ export default function AIPage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-4">Natural Language Processing</h3>
+              <h3 className="text-xl font-bold mb-4">
+                Natural Language Processing
+              </h3>
               <p className="mb-6 text-muted-foreground">
-                Build intelligent systems that understand, interpret, and generate human language, enabling chatbots,
-                sentiment analysis, and content generation.
+                Build intelligent systems that understand, interpret, and
+                generate human language, enabling chatbots, sentiment analysis,
+                and content generation.
               </p>
-              <Link href="/ai/nlp" className="text-purple-600 dark:text-purple-400 font-medium hover:underline">
+              {/* <Link
+                href="/ai/nlp"
+                className="gradient-text dark:text-purple-400 font-medium hover:underline"
+              >
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
 
             <div className="bg-card p-8 rounded-lg shadow-md card-hover">
@@ -139,15 +152,16 @@ export default function AIPage() {
               </div>
               <h3 className="text-xl font-bold mb-4">Computer Vision</h3>
               <p className="mb-6 text-muted-foreground">
-                Implement systems that can analyze and understand visual information from images and videos, enabling
-                object detection, facial recognition, and visual inspection.
+                Implement systems that can analyze and understand visual
+                information from images and videos, enabling object detection,
+                facial recognition, and visual inspection.
               </p>
-              <Link
+              {/* <Link
                 href="/ai/computer-vision"
-                className="text-purple-600 dark:text-purple-400 font-medium hover:underline"
+                className="gradient-text dark:text-purple-400 font-medium hover:underline"
               >
                 Learn More →
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -173,18 +187,21 @@ export default function AIPage() {
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
-                <h3 className="text-xl font-bold mb-4">Retail Inventory Optimization</h3>
+                <h3 className="text-xl font-bold mb-4">
+                  Retail Inventory Optimization
+                </h3>
                 <p className="mb-6 text-muted-foreground">
-                  We developed a machine learning system for a retail chain that predicts inventory needs based on
-                  historical sales data, seasonal trends, and external factors. The solution reduced stockouts by 35%
-                  and decreased excess inventory by 28%.
+                  We developed a machine learning system for a retail chain that
+                  predicts inventory needs based on historical sales data,
+                  seasonal trends, and external factors. The solution reduced
+                  stockouts by 35% and decreased excess inventory by 28%.
                 </p>
-                <Link
+                {/* <Link
                   href="/case-studies/retail-ai"
-                  className="text-purple-600 dark:text-purple-400 font-medium hover:underline"
+                  className="gradient-text font-medium hover:underline"
                 >
                   Read Case Study →
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -197,18 +214,21 @@ export default function AIPage() {
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
-                <h3 className="text-xl font-bold mb-4">Healthcare Diagnostic Assistant</h3>
+                <h3 className="text-xl font-bold mb-4">
+                  Healthcare Diagnostic Assistant
+                </h3>
                 <p className="mb-6 text-muted-foreground">
-                  We built an AI-powered diagnostic assistant for a healthcare provider that analyzes medical images to
-                  detect potential issues. The system achieved 94% accuracy in early detection, helping doctors make
-                  faster and more accurate diagnoses.
+                  We built an AI-powered diagnostic assistant for a healthcare
+                  provider that analyzes medical images to detect potential
+                  issues. The system achieved 94% accuracy in early detection,
+                  helping doctors make faster and more accurate diagnoses.
                 </p>
-                <Link
+                {/* <Link
                   href="/case-studies/healthcare-ai"
-                  className="text-purple-600 dark:text-purple-400 font-medium hover:underline"
+                  className="gradient-text dark:text-purple-400 font-medium hover:underline"
                 >
                   Read Case Study →
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -216,12 +236,13 @@ export default function AIPage() {
       </section>
 
       {/* Technology Section */}
-      <section className="section-padding bg-accent text-accent-foreground">
+      <section className="section-padding bg-secondary">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="mb-4">Our AI Technology Stack</h2>
             <p className="text-lg max-w-3xl mx-auto">
-              We leverage cutting-edge technologies to build powerful AI solutions
+              We leverage cutting-edge technologies to build powerful AI
+              solutions
             </p>
           </div>
 
@@ -236,7 +257,7 @@ export default function AIPage() {
                   className="h-12 w-12"
                 />
               </div>
-              <h3 className="text-xl font-bold">TensorFlow</h3>
+              <h3 className="text-xl font-bold gradient-text">TensorFlow</h3>
             </div>
 
             <div className="text-center p-6">
@@ -249,7 +270,7 @@ export default function AIPage() {
                   className="h-12 w-12"
                 />
               </div>
-              <h3 className="text-xl font-bold">PyTorch</h3>
+              <h3 className="text-xl font-bold gradient-text">PyTorch</h3>
             </div>
 
             <div className="text-center p-6">
@@ -262,7 +283,7 @@ export default function AIPage() {
                   className="h-12 w-12"
                 />
               </div>
-              <h3 className="text-xl font-bold">OpenAI</h3>
+              <h3 className="text-xl font-bold gradient-text">OpenAI</h3>
             </div>
 
             <div className="text-center p-6">
@@ -275,7 +296,7 @@ export default function AIPage() {
                   className="h-12 w-12"
                 />
               </div>
-              <h3 className="text-xl font-bold">Hugging Face</h3>
+              <h3 className="text-xl font-bold gradient-text">Hugging Face</h3>
             </div>
           </div>
         </div>
@@ -284,6 +305,5 @@ export default function AIPage() {
       {/* CTA Section */}
       <CtaSection />
     </div>
-  )
+  );
 }
-

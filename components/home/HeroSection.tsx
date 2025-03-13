@@ -16,10 +16,10 @@ const HeroSection = () => {
               and competitive advantage in the digital era.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="button-primary">
+              <Link href="/contact" className="button-gradient">
                 Get Started
               </Link>
-              <Link href="/about" className="button-secondary">
+              <Link href="/about" className="button-primary">
                 Learn More
               </Link>
             </div>

@@ -157,7 +157,7 @@ const BlogSidebar = ({ onSearch, onCategoryFilter, onTagFilter, activeCategory, 
       </div>
 
       {/* Newsletter */}
-      <div className="bg-primary/10 p-6 rounded-lg shadow-sm">
+      {/* <div className="bg-primary/10 p-6 rounded-lg shadow-sm">
         <h3 className="text-lg font-bold mb-4">Subscribe to Our Newsletter</h3>
         <p className="text-muted-foreground mb-4">
           Get the latest articles and insights delivered straight to your inbox.
@@ -176,7 +176,7 @@ const BlogSidebar = ({ onSearch, onCategoryFilter, onTagFilter, activeCategory, 
             Subscribe
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   )
 }

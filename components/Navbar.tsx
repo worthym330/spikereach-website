@@ -39,14 +39,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image
+            {/* <Image
               src="/placeholder.svg?height=40&width=40"
               alt="SpikeReach Logo"
               width={40}
               height={40}
               className="mr-3"
-            />
-            <span className="text-xl font-bold">SpikeReach</span>
+            /> */}
+            <span className="text-xl font-bold gradient-text">SpikeReach</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -54,7 +54,7 @@ const Navbar = () => {
             <Link
               href="/"
               className={`font-medium transition-colors ${
-                isActive("/") ? "text-primary border-b-2 border-primary" : "text-foreground/80 hover:text-primary"
+                isActive("/") ? "text-[#fd1d1d] border-b-2 border-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
               }`}
             >
               Home
@@ -62,7 +62,7 @@ const Navbar = () => {
             <Link
               href="/devops"
               className={`font-medium transition-colors ${
-                isActive("/devops") ? "text-primary border-b-2 border-primary" : "text-foreground/80 hover:text-primary"
+                isActive("/devops") ? "text-[#fd1d1d] border-b-2 border-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
               }`}
             >
               DevOps
@@ -70,7 +70,7 @@ const Navbar = () => {
             <Link
               href="/ai"
               className={`font-medium transition-colors ${
-                isActive("/ai") ? "text-primary border-b-2 border-primary" : "text-foreground/80 hover:text-primary"
+                isActive("/ai") ? "text-[#fd1d1d] border-b-2 border-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
               }`}
             >
               AI
@@ -79,8 +79,8 @@ const Navbar = () => {
               href="/marketing"
               className={`font-medium transition-colors ${
                 isActive("/marketing")
-                  ? "text-primary border-b-2 border-primary"
-                  : "text-foreground/80 hover:text-primary"
+                  ? "text-[#fd1d1d] border-b-2 border-[#fd1d1d]"
+                  : "text-foreground/80 hover:text-[#fd1d1d]"
               }`}
             >
               Marketing
@@ -88,7 +88,7 @@ const Navbar = () => {
             <Link
               href="/blog"
               className={`font-medium transition-colors ${
-                isActive("/blog") ? "text-primary border-b-2 border-primary" : "text-foreground/80 hover:text-primary"
+                isActive("/blog") ? "text-[#fd1d1d] border-b-2 border-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
               }`}
             >
               Blog
@@ -97,8 +97,8 @@ const Navbar = () => {
               href="/contact"
               className={`font-medium transition-colors ${
                 isActive("/contact")
-                  ? "text-primary border-b-2 border-primary"
-                  : "text-foreground/80 hover:text-primary"
+                  ? "text-[#fd1d1d] border-b-2 border-[#fd1d1d]"
+                  : "text-foreground/80 hover:text-[#fd1d1d]"
               }`}
             >
               Contact
@@ -108,7 +108,7 @@ const Navbar = () => {
           {/* CTA Button and Theme Toggle */}
           <div className="hidden md:flex items-center space-x-4">
             {/* <ThemeToggle /> */}
-            <Link href="/contact" className="button-primary">
+            <Link href="/contact" className="button-gradient">
               Get Started
             </Link>
           </div>
@@ -131,7 +131,7 @@ const Navbar = () => {
               <Link
                 href="/"
                 className={`font-medium py-2 ${
-                  isActive("/") ? "text-primary" : "text-foreground/80 hover:text-primary"
+                  isActive("/") ? "text-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -140,7 +140,7 @@ const Navbar = () => {
               <Link
                 href="/devops"
                 className={`font-medium py-2 ${
-                  isActive("/devops") ? "text-primary" : "text-foreground/80 hover:text-primary"
+                  isActive("/devops") ? "text-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -149,7 +149,7 @@ const Navbar = () => {
               <Link
                 href="/ai"
                 className={`font-medium py-2 ${
-                  isActive("/ai") ? "text-primary" : "text-foreground/80 hover:text-primary"
+                  isActive("/ai") ? "text-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -158,7 +158,7 @@ const Navbar = () => {
               <Link
                 href="/marketing"
                 className={`font-medium py-2 ${
-                  isActive("/marketing") ? "text-primary" : "text-foreground/80 hover:text-primary"
+                  isActive("/marketing") ? "text-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -167,7 +167,7 @@ const Navbar = () => {
               <Link
                 href="/blog"
                 className={`font-medium py-2 ${
-                  isActive("/blog") ? "text-primary" : "text-foreground/80 hover:text-primary"
+                  isActive("/blog") ? "text-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -176,7 +176,7 @@ const Navbar = () => {
               <Link
                 href="/contact"
                 className={`font-medium py-2 ${
-                  isActive("/contact") ? "text-primary" : "text-foreground/80 hover:text-primary"
+                  isActive("/contact") ? "text-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -185,7 +185,7 @@ const Navbar = () => {
 
               <Link
                 href="/contact"
-                className="button-primary w-full text-center mt-4 py-2"
+                className="button-gradient w-full text-center mt-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Get Started

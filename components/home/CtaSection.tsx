@@ -13,7 +13,7 @@ const CtaSection = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               href="/contact"
-              className="px-8 py-4 bg-white text-primary rounded-md font-medium transition-all hover:bg-primary-foreground/90 focus:outline-none focus:ring-2 focus:ring-primary-foreground focus:ring-opacity-50"
+              className="px-8 py-4 bg-white text-[#833ab4] rounded-md font-medium transition-all hover:bg-primary-foreground/90 focus:outline-none focus:ring-2 focus:ring-primary-foreground focus:ring-opacity-50"
             >
               Get in Touch
             </Link>

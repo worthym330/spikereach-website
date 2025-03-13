@@ -9,34 +9,10 @@ const teamMembers = [
     bio: "John has over 20 years of experience in tech and is passionate about leveraging AI to solve complex business problems.",
   },
   {
-    name: "Jane Smith",
-    role: "CTO",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "Jane is a veteran software engineer with a focus on scalable architecture and cutting-edge AI implementations.",
-  },
-  {
-    name: "Mike Johnson",
-    role: "Head of DevOps",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "Mike specializes in streamlining development processes and implementing robust, scalable infrastructure solutions.",
-  },
-  {
     name: "Sarah Lee",
     role: "Chief Marketing Officer",
     image: "/placeholder.svg?height=300&width=300",
     bio: "Sarah brings a wealth of experience in digital marketing and has a track record of driving growth for tech companies.",
-  },
-  {
-    name: "David Chen",
-    role: "Lead AI Researcher",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "David is at the forefront of AI research, focusing on developing practical applications for businesses across industries.",
-  },
-  {
-    name: "Emily Taylor",
-    role: "Head of Customer Success",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "Emily ensures our clients get the most out of our solutions, with a focus on long-term partnerships and client satisfaction.",
   },
 ]
 
@@ -113,7 +89,7 @@ export default function AboutPage() {
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-bold mb-2">{member.name}</h3>
-                    <p className="text-primary mb-4">{member.role}</p>
+                    <p className="text-[#833ab4] mb-4">{member.role}</p>
                     <p className="text-muted-foreground">{member.bio}</p>
                   </div>
                 </div>
@@ -127,12 +103,12 @@ export default function AboutPage() {
               We're always looking for talented individuals who are passionate about AI, DevOps, and Marketing. If
               you're excited about pushing the boundaries of what's possible, we'd love to hear from you.
             </p>
-            <a
+            {/* <a
               href="/careers"
               className="inline-block bg-white text-primary px-8 py-3 rounded-full font-bold hover:bg-opacity-90 transition-colors"
             >
               View Open Positions
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

@@ -36,7 +36,7 @@ export default function Home() {
                 Our team of experts works closely with you to understand your unique challenges and develop tailored
                 solutions that drive growth and innovation.
               </p>
-              <Link href="/about" className="button-primary">
+              <Link href="/about" className="button-gradient">
                 Learn More About Us
               </Link>
             </div>

@@ -6,31 +6,31 @@ const Footer = () => {
   return (
     <footer className="bg-secondary text-secondary-foreground">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <Image
+              {/* <Image
                 src="/placeholder.svg?height=40&width=40"
                 alt="SpikeReach Logo"
                 width={40}
                 height={40}
                 className="mr-3"
-              />
-              <span className="text-xl font-bold">SpikeReach</span>
+              /> */}
+              <span className="text-xl font-bold gradient-text">SpikeReach</span>
             </div>
             <p className="mb-6">Transforming businesses with cutting-edge AI, DevOps, and Marketing solutions.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=61555829081054" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors" aria-label="Twitter">
+              {/* <a href="#" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors" aria-label="Twitter">
                 <Twitter size={20} />
-              </a>
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors" aria-label="LinkedIn">
+              </a> */}
+              <a href="https://www.linkedin.com/company/spikereach1/" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/spikereach/" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
             </div>
@@ -41,37 +41,37 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-6">Quick Links</h3>
             <ul className="space-y-4">
               <li>
-                <Link href="/" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link href="/" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link href="/about" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/devops" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link href="/devops" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors">
                   DevOps
                 </Link>
               </li>
               <li>
-                <Link href="/ai" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link href="/ai" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors">
                   AI
                 </Link>
               </li>
               <li>
-                <Link href="/marketing" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link href="/marketing" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors">
                   Marketing
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link href="/blog" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link href="/contact" className="text-foreground/60 hover:text-[#fd1d1d] transition-colors">
                   Contact
                 </Link>
               </li>
@@ -96,7 +96,7 @@ const Footer = () => {
                 <Phone size={20} className="mr-3 text-foreground/60 flex-shrink-0" />
                 <a
                 href="tel:+918369029862"
-                className="text-foreground/60 hover:text-primary transition-colors"
+                className="text-foreground/60 hover:text-[#fd1d1d] transition-colors"
               >
                 +91 83690 29862
               </a>
@@ -105,7 +105,7 @@ const Footer = () => {
                 <Mail size={20} className="mr-3 text-foreground/60 flex-shrink-0" />
                 <a
                   href="mailto:info@SpikeReach.com"
-                  className="text-foreground/60 hover:text-primary transition-colors"
+                  className="text-foreground/60 hover:text-[#fd1d1d] transition-colors"
                 >
                   info@SpikeReach.com
                 </a>
@@ -114,7 +114,7 @@ const Footer = () => {
           </div>
 
           {/* Newsletter */}
-          <div>
+          {/* <div>
             <h3 className="text-lg font-bold mb-6">Subscribe to Our Newsletter</h3>
             <p className="text-foreground/60 mb-4">
               Stay updated with the latest insights and news in AI, DevOps, and Marketing.
@@ -135,7 +135,7 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-border mt-12 pt-8 text-center text-foreground/60">
