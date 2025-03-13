@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm run install # or npm install
+        - npm install # or npm install
     build:
       commands:
         - npm run build # or npm run build
