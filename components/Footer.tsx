@@ -104,10 +104,10 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail size={20} className="mr-3 text-foreground/60 flex-shrink-0" />
                 <a
-                  href="mailto:info@SpikeReach.com"
+                  href="mailto:team@spikereach.com"
                   className="text-foreground/60 hover:text-[#fd1d1d] transition-colors"
                 >
-                  info@SpikeReach.com
+                  team@spikereach.com
                 </a>
               </li>
             </ul>
