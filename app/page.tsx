@@ -48,7 +48,7 @@ export default function Home() {
       <ServiceSection />
 
       {/* Testimonials */}
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
 
       {/* Stats Section */}
       <section className="section-padding bg-secondary">
