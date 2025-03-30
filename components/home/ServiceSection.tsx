@@ -19,7 +19,7 @@ const ServiceSection = () => {
           <div className="bg-card rounded-lg shadow-md overflow-hidden card-hover">
             <div className="h-48 relative">
               <Image
-                src="/placeholder.svg?height=300&width=500"
+                src="/images/DevOps3.jpg?height=300&width=500"
                 alt="DevOps Services"
                 fill
                 className="object-cover"
@@ -48,7 +48,7 @@ const ServiceSection = () => {
           <div className="bg-card rounded-lg shadow-md overflow-hidden card-hover">
             <div className="h-48 relative">
               <Image
-                src="/placeholder.svg?height=300&width=500"
+                src="/images/AI2.jpg?height=300&width=500"
                 alt="AI Services"
                 fill
                 className="object-cover"
@@ -76,7 +76,7 @@ const ServiceSection = () => {
           <div className="bg-card rounded-lg shadow-md overflow-hidden card-hover">
             <div className="h-48 relative">
               <Image
-                src="/placeholder.svg?height=300&width=500"
+                src="/images/Marketing2.jpg?height=300&width=500"
                 alt="Marketing Services"
                 fill
                 className="object-cover"

@@ -26,7 +26,7 @@ const HeroSection = () => {
           </div>
           <div className="md:w-1/2">
             <Image
-              src="/placeholder.svg?height=600&width=600"
+              src="/images/hero.png?height=600&width=600"
               alt="SpikeReach Hero"
               width={600}
               height={600}

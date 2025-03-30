@@ -17,7 +17,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/business.jpg"
                 alt="About SpikeReach"
                 width={600}
                 height={500}
