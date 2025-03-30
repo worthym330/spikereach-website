@@ -30,10 +30,10 @@ const ContactInfo = () => {
             <h4 className="font-bold mb-1">Phone</h4>
             <p className="text-muted-foreground">
               <a
-                href="tel:+918369029862"
+                href="tel:+918356070349"
                 className="hover:text-primary transition-colors"
               >
-                +91 83690 29862
+                +91 83560 70349
               </a>
               <br />
             </p>
