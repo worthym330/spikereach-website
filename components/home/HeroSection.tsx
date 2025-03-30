@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-background overflow-hidden">
-      <div className="hero-gradient absolute inset-0"></div>
+    <div className="bg-background">
+      {/* <div className="hero-gradient absolute inset-0"></div> */}
       <div className="container mx-auto px-4 py-20 md:py-32">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-12 md:mb-0">

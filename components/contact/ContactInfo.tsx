@@ -75,12 +75,12 @@ const ContactInfo = () => {
       <div className="mt-8 pt-8 border-t border-border">
         <h4 className="font-bold mb-4">Connect With Us</h4>
         <div className="flex space-x-4">
-        <a
-                href="mailto:team@spikereach.com"
-                className="h-10 w-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/90 transition-colors"
-              >
-                <Mail className="text-white w-full" />
-              </a>
+          <a
+            href="mailto:team@spikereach.com"
+            className="h-10 w-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/90 transition-colors"
+          >
+            <Mail className="text-white w-full" />
+          </a>
           <a
             href="https://www.facebook.com/profile.php?id=61555829081054"
             className="h-10 w-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/90 transition-colors"

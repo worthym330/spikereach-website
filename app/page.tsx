@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import HeroSection from "@/components/home/HeroSection"
 import ServiceSection from "@/components/home/ServiceSection"
-import TestimonialSection from "@/components/home/TestimonialSection"
+// import TestimonialSection from "@/components/home/TestimonialSection"
 import CtaSection from "@/components/home/CtaSection"
 
 export default function Home() {
