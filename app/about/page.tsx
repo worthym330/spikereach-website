@@ -22,7 +22,7 @@ export default function AboutPage() {
       <PageHeader
         title="About Spikereach"
         subtitle="Transforming businesses with cutting-edge AI, DevOps, and Marketing solutions"
-        backgroundImage="/placeholder.svg?height=600&width=1600"
+        backgroundImage="/images/about.jpeg"
       />
 
       <section className="py-16 md:py-24">
@@ -53,7 +53,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-64 md:h-full">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/story.jpeg"
                 alt="Spikereach team"
                 fill
                 className="object-cover rounded-lg"
@@ -79,7 +79,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="text-center mb-16">
+          {/* <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-12">Meet Our Team</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
               {teamMembers.map((member) => (
@@ -95,7 +95,7 @@ export default function AboutPage() {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           <div className="bg-custom-gradient text-white rounded-lg p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Our Team</h2>

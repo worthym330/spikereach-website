@@ -14,7 +14,7 @@ export default function MarketingPage() {
       <PageHeader
         title="Marketing Solutions"
         subtitle="Strategic marketing solutions to grow your business and reach your target audience"
-        backgroundImage="/placeholder.svg?height=600&width=1600"
+        backgroundImage="/images/marketing.jpeg"
       />
 
       {/* Overview Section */}
@@ -36,7 +36,7 @@ export default function MarketingPage() {
             </div>
             <div className="md:w-1/2">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/marketing4.jpeg"
                 alt="Marketing Solutions"
                 width={600}
                 height={500}

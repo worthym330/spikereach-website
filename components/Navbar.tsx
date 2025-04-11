@@ -85,14 +85,14 @@ const Navbar = () => {
             >
               Marketing
             </Link>
-            <Link
+            {/* <Link
               href="/blog"
               className={`font-medium transition-colors ${
                 isActive("/blog") ? "text-[#fd1d1d] border-b-2 border-[#fd1d1d]" : "text-foreground/80 hover:text-[#fd1d1d]"
               }`}
             >
               Blog
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className={`font-medium transition-colors ${

@@ -15,7 +15,7 @@ export default function DevOpsPage() {
       <PageHeader
         title="DevOps Solutions"
         subtitle="Streamline your development and operations with our expert DevOps solutions"
-        backgroundImage="/placeholder.svg?height=600&width=1600"
+        backgroundImage="/images/devops.svg?height=600&width=1600"
       />
 
       {/* Overview Section */}
@@ -37,7 +37,7 @@ export default function DevOpsPage() {
             </div>
             <div className="md:w-1/2">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/DevOps3.jpg"
                 alt="DevOps Solutions"
                 width={600}
                 height={500}

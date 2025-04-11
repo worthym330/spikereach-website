@@ -13,7 +13,7 @@ export default function ContactPage() {
       <PageHeader
         title="Contact Us"
         subtitle="Get in touch with our team to discuss your project"
-        backgroundImage="/placeholder.svg?height=600&width=1600"
+        backgroundImage="/images/contact.jpeg"
       />
 
       <section className="section-padding bg-background">

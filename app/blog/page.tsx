@@ -226,7 +226,7 @@ export default function BlogPage() {
       <PageHeader
         title="Blog"
         subtitle="Insights, tips, and trends in AI, DevOps, and Marketing"
-        backgroundImage="/placeholder.svg?height=600&width=1600"
+        backgroundImage="/images/blog2.jpeg"
       />
 
       <section className="section-padding bg-background">
