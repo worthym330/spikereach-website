@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import type React from "react"
+import type React from "react";
 
-import { useState } from "react"
+import { useState } from "react";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -10,34 +10,55 @@ const ContactForm = () => {
     email: "",
     subject: "",
     message: "",
-  })
+  });
 
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitSuccess, setSubmitSuccess] = useState(false)
-  const [submitError, setSubmitError] = useState("")
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    setSubmitError("")
-
-    // Simulate form submission
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitError("");
+    setSubmitSuccess(false);
+    console.log("Form data:", formData);
     try {
-      // In a real application, you would send the form data to your API
-      await new Promise((resolve) => setTimeout(resolve, 1500))
-      setSubmitSuccess(true)
-      setFormData({ name: "", email: "", subject: "", message: "" })
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          subject: formData.subject,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message");
+      }
+
+      setSubmitSuccess(true);
+      setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (error) {
-      setSubmitError("There was an error submitting your form. Please try again.")
+      setSubmitError(
+        "There was an error submitting your form. Please try again."
+      );
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
@@ -48,11 +69,16 @@ const ContactForm = () => {
       )}
 
       {submitError && (
-        <div className="p-4 bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-100 rounded-md">{submitError}</div>
+        <div className="p-4 bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-100 rounded-md">
+          {submitError}
+        </div>
       )}
 
       <div>
-        <label htmlFor="name" className="block text-sm font-medium text-foreground mb-1">
+        <label
+          htmlFor="name"
+          className="block text-sm font-medium text-foreground mb-1"
+        >
           Name
         </label>
         <input
@@ -67,7 +93,10 @@ const ContactForm = () => {
       </div>
 
       <div>
-        <label htmlFor="email" className="block text-sm font-medium text-foreground mb-1">
+        <label
+          htmlFor="email"
+          className="block text-sm font-medium text-foreground mb-1"
+        >
           Email
         </label>
         <input
@@ -82,7 +111,10 @@ const ContactForm = () => {
       </div>
 
       <div>
-        <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-1">
+        <label
+          htmlFor="subject"
+          className="block text-sm font-medium text-foreground mb-1"
+        >
           Subject
         </label>
         <input
@@ -97,7 +129,10 @@ const ContactForm = () => {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-foreground mb-1">
+        <label
+          htmlFor="message"
+          className="block text-sm font-medium text-foreground mb-1"
+        >
           Message
         </label>
         <textarea
@@ -119,8 +154,7 @@ const ContactForm = () => {
         {isSubmitting ? "Sending..." : "Send Message"}
       </button>
     </form>
-  )
-}
+  );
+};
 
-export default ContactForm
-
+export default ContactForm;
