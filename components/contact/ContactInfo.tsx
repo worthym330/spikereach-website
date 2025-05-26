@@ -13,7 +13,7 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-bold mb-1">Office Address</h4>
             <p className="text-muted-foreground">
-              Goregoan West,
+              Andheri West,
               <br />
               Mumbai, Maharashtra,
               <br />

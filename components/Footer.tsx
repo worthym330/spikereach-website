@@ -85,7 +85,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 text-foreground/60 flex-shrink-0 mt-1" />
                 <span className="text-foreground/60">
-                Goregoan West,
+                Andheri West,
               <br />
               Mumbai, Maharashtra,
               <br />
